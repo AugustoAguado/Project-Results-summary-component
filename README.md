@@ -1,2 +1,2 @@
 # Project-Results-summary-component
-Results summary component project
+Results summary component project.
