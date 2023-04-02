@@ -111,7 +111,7 @@ main{
 }
 
 .reaction__icon{
-    background-image: url(/assets/images/icon-reaction.svg);
+    background-image: url('assets/images/icon-reaction.svg');
     background-repeat: no-repeat;
     text-decoration: none;
 }
@@ -141,7 +141,7 @@ main{
 }
 
 .memory__icon{
-    background-image: url(/assets/images/icon-memory.svg);
+    background-image: url('assets/images/icon-memory.svg');
     background-repeat: no-repeat;
     text-decoration: none;
 }
@@ -171,7 +171,7 @@ main{
 }
 
 .verbal__icon{
-    background-image: url(/assets/images/icon-verbal.svg);
+    background-image: url('assets/images/icon-verbal.svg');
     background-repeat: no-repeat;
     text-decoration: none;
 }
@@ -201,7 +201,7 @@ main{
 }
 
 .visual__icon{
-    background-image: url(/assets/images/icon-visual.svg);
+    background-image: url('assets/images/icon-visual.svg');
     background-repeat: no-repeat;
     text-decoration: none;
 }
