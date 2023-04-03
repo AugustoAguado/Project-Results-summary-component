@@ -1,9 +1,12 @@
 
-main{
-    font-family:'Hanken Grotesk';
-}
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+    font-weight: 500, 700, 800;
+  } 
 
 .main-container{
+    font-family:'Hanken Grotesk';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +70,7 @@ main{
     bottom: 85px;
     font-size: 14px;
     color:#887BFF;
+    font-weight: 500;
 }
 
 .desc__tittle{
@@ -114,10 +118,11 @@ main{
     background-image: url('../assets/images/icon-reaction.svg');
     background-repeat: no-repeat;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .reaction__text{
-    padding: 0px 100px 0px 28px;
+    padding: 0px 90px 0px 28px;
     color: #F6797D;
     font-weight: 800;
 }
@@ -144,10 +149,11 @@ main{
     background-image: url('../assets/images/icon-memory.svg');
     background-repeat: no-repeat;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .memory__text{
-    padding: 0px 100px 0px 28px;
+    padding: 0px 90px 0px 28px;
     color: #FEBF59;
     font-weight: 800;
 }
@@ -174,10 +180,11 @@ main{
     background-image: url('../assets/images/icon-verbal.svg');
     background-repeat: no-repeat;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .verbal__text{
-    padding: 0px 115px 0px 28px;
+    padding: 0px 105px 0px 28px;
     color: #2FBB96;
     font-weight: 800;
 }
@@ -204,10 +211,11 @@ main{
     background-image: url('../assets/images/icon-visual.svg');
     background-repeat: no-repeat;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .visual__text{
-    padding: 0px 115px 0px 28px;
+    padding: 0px 105px 0px 28px;
     color: #50588D;
     font-weight: 800;
 }
@@ -224,6 +232,7 @@ main{
     border-radius: 20px;
     color: white;
     font-size: 15px;
+    font-weight: 700;
     text-decoration: none;
     padding: 10px 80px;
 }
@@ -250,7 +259,7 @@ main{
         
     }
     .leftcard{
-       width: 100%;
+        width:100%;
         border-radius: 0px 0px 30px 30px;
     }
     .rightcard{
@@ -258,19 +267,23 @@ main{
         right:0px;
         box-shadow: none;
     }
-  .rightcard__tittle{
-    padding: 0;
+    .rightcard__tittle{
+        padding: 0;
     }
     .rightcard__list{
         display: flex;
         padding: 0;
         flex-direction: column;
         align-items: center;
+        
     }
     .rightcard__item .reaction, .memory, .verbal, .visual{
       width: 150px;  
     }
     .rightcard__botton{
         margin: 0;
+    }
+    .reaction__text,.memory__text, .verbal__text, .visual__text{
+        margin-right: 35px;
     }
 }
